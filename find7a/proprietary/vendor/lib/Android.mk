@@ -14,7 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter find7 find7a find7op,$(TARGET_DEVICE)),)
+ifneq ($(filter find7 find7a find7op bacon,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtime_genoff
