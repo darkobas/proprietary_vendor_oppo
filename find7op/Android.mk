@@ -16,7 +16,10 @@
 
 LOCAL_PATH := $(call my-dir)
 
+ifeq ($(BOARD_VENDOR),oppo)
 ifeq ($(TARGET_BOARD_PLATFORM),msm8974)
+
+ifeq ($(QCPATH),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.qualcomm.location
@@ -223,4 +226,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
+endif
+endif
 endif

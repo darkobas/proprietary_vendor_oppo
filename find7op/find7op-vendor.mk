@@ -37,4 +37,16 @@ PRODUCT_PACKAGES += \
     libwvm \
     libWVStreamControlAPI_L3
 
+PRODUCT_PACKAGES += \
+    libwpa_qmi_eap_proxy \
+    libdsutils \
+    libqmi_client_qmux \
+    libdiag \
+    libqcci_legacy \
+    libidl \
+    libqmiservices \
+    libmdmdetect \
+    libqmi \
+    TimeService \
+
 $(call inherit-product, vendor/oppo/find7op/find7op-vendor-blobs.mk)
