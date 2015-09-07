@@ -180,7 +180,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
     $(LOCAL_PATH)/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     $(LOCAL_PATH)/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    bacon/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     $(LOCAL_PATH)/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     $(LOCAL_PATH)/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
@@ -252,6 +251,7 @@ PRODUCT_COPY_FILES += \
 
 # Firmware images
 PRODUCT_COPY_FILES += \
+    vendor/oppo/bacon/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/oppo/bacon/proprietary/etc/firmware/adsp.b00:system/etc/firmware/adsp.b00 \
     vendor/oppo/bacon/proprietary/etc/firmware/adsp.b01:system/etc/firmware/adsp.b01 \
     vendor/oppo/bacon/proprietary/etc/firmware/adsp.b02:system/etc/firmware/adsp.b02 \
