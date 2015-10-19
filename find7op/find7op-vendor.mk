@@ -16,8 +16,6 @@ DEVICE_PACKAGE_OVERLAYS := vendor/oppo/find7op/overlay
 
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
-    PPPreference \
-    QuickBoot \
     qcrilmsgtunnel \
     shutdownlistener
 
